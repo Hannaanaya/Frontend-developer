@@ -1,0 +1,42 @@
+.error {
+    background: -webkit-gradient(linear, left top, left bottom, from(#21C08B), to(#855be7));
+    background: linear-gradient(#21C08B, #855be7);
+    color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 600px;
+    width: 100%;
+  }
+  
+  .error_container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: white;
+    min-height: calc(100vh - 200px);
+  }
+  
+  .error h1 {
+    font-size: 60px;
+    -webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  
+  .error p {
+    margin-top: -30px;
+  }
